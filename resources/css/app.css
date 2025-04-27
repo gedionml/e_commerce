@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern E-Commerce Theme */
+body {
+    @apply bg-gradient-to-br from-gray-100 to-blue-100 min-h-screen;
+}
+header {
+    @apply sticky top-0 z-30 bg-white shadow-md;
+}
+nav a {
+    @apply text-gray-700 hover:text-blue-600 font-medium transition;
+}
+.card {
+    @apply bg-white rounded-xl shadow hover:shadow-lg p-6 transition;
+}
+.btn {
+    @apply px-4 py-2 rounded-lg transition font-semibold shadow-sm;
+}
+.btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+.btn-success {
+    @apply bg-green-600 text-white hover:bg-green-700;
+}
